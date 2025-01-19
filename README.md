@@ -29,16 +29,48 @@ The target variable is 'Converted', where:
 
 ### Data Challenges
 
-1.ome categorical variables include a level called 'Select', which is equivalent to missing or null data and must be addressed during preprocessing.
+1. ome categorical variables include a level called 'Select', which is equivalent to missing or null data and must be addressed during preprocessing.
 
-2.The dataset includes both categorical and numerical variables, requiring appropriate feature engineering and encoding techniques.
+2. The dataset includes both categorical and numerical variables, requiring appropriate feature engineering and encoding techniques.
 
 ## Goals of the Case Study:
 
-- There are quite a few goals for this case study.
+1. Build a Logistic Regression Model:
+    - Assign a lead score (between 0 and 100) to each lead.
+    - High scores indicate leads with a higher likelihood of conversion.
+    - Low scores indicate leads less likely to convert.
+3. Adaptability:
+   
+    - Ensure the model can handle future company requirements or variations in lead characteristics.
+     
+5. Documentation and Presentation:
+    - Deliver a well-commented Jupyter Notebook that includes the model, predictions, and evaluation metrics.
+    - Prepare a document answering problem-specific questions.
+    - Summarize the analysis in a 500-word brief report detailing the approach and key learnings.
+    - Create a presentation outlining:
+          - Problem statement
+          - Analysis approach
+          - Results in business terms
+          - Visualizations and summaries of key findings.
+         
+## Analysis Approach:
 
-- Build a logistic regression model to assign a lead score between 0 and 100 to each of the leads which can be used by the company to target potential leads. A higher score would mean that the lead is hot, i.e. is most likely to convert whereas a lower score would mean that the lead is cold and will mostly not get converted. There are some more problems presented by the company which your model should be able to adjust to if the company's requirement changes in the future so you will need to handle these as well. These problems are provided in a separate doc file. Please fill it based on the logistic regression model you got in the first step. Also, make sure you include this in your final PPT where you'll make recommendations.
+1. Data Preparation:
+   
+    - Handle null values, outliers, and redundant levels such as 'Select'.
+    - Encode categorical variables appropriately.
+    - Standardize and scale numerical variables.
+      
+3. Exploratory Data Analysis (EDA):
+   
+    - Identify patterns, correlations, and trends within the data.
+    - Use visualizations to understand relationships between variables.
+5. Model Building:
+    - Develop a logistic regression model to predict lead conversion.
+    - Evaluate model performance using metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
+6. Results Interpretation:
+oAnalyze the coefficients to identify the most influential features.
+oRecommend strategies for improving lead conversion based on model insights.
+7. Documentation:
+oSummarize key insights, learning, and recommendations in a brief report and a presentation.
 
-## Results Expected:
-
-- A well-commented Jupyter note with at least the logistic regression model, the conversion predictions and evaluation metrics. The word document filled with solutions to all the problems. The overall approach of the analysis in a presentation Mention the problem statement and the analysis approach briefly Explain the results in business terms Include visualisations and summarise the most important results in the presentation A brief summary report in 500 words explaining how you proceeded with the assignment and the learnings that you gathered.
