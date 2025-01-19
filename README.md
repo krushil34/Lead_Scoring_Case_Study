@@ -89,24 +89,27 @@ The target variable is 'Converted', where:
    
     - Features such as Welingak Websites, Reference, and Occupation: Working Professional significantly influence lead conversion probabilities.
 
-3. Categorical Variables to Focus On:
+2. Categorical Variables to Focus On:
    
     - Occupation: Working Professional
     - Lead Source: Reference
     - Last Activity: Other Activity
-      
-5. Model Performance:
+
+3. Model Performance:
    
     - The logistic regression model successfully predicts lead conversion with a high level of accuracy and interpretability.
       
-4.Business Implications:
+4. Business Implications:
 
     - By focusing on high-scoring leads, the sales team can prioritize communication efforts, improving the conversion rate and reducing operational inefficiencies.
 
 ## Deliverables
 
-1.Jupyter Notebook:
+1.Jupyter Notebook
+
 2.Document answering problem-specific questions 
-3.Brief Summary Report:
-4.PowerPoint Presentation:
+
+3.Brief Summary Report
+
+4.PowerPoint Presentation
 
