@@ -105,11 +105,11 @@ The target variable is 'Converted', where:
 
 ## Deliverables
 
-1.Jupyter Notebook
+1. Jupyter Notebook
+ 
+2. Document answering problem-specific questions 
 
-2.Document answering problem-specific questions 
+3. Brief Summary Report
 
-3.Brief Summary Report
-
-4.PowerPoint Presentation
+4. PowerPoint Presentation
 
