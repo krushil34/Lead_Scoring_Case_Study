@@ -30,6 +30,7 @@ The target variable is 'Converted', where:
 ### Data Challenges
 
 1.ome categorical variables include a level called 'Select', which is equivalent to missing or null data and must be addressed during preprocessing.
+
 2.The dataset includes both categorical and numerical variables, requiring appropriate feature engineering and encoding techniques.
 
 ## Goals of the Case Study:
