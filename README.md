@@ -41,11 +41,11 @@ The target variable is 'Converted', where:
     - High scores indicate leads with a higher likelihood of conversion.
     - Low scores indicate leads less likely to convert.
       
-3. Adaptability:
+2. Adaptability:
    
     - Ensure the model can handle future company requirements or variations in lead characteristics.
      
-5. Documentation and Presentation:
+3. Documentation and Presentation:
    
     - Deliver a well-commented Jupyter Notebook that includes the model, predictions, and evaluation metrics.
     - Prepare a document answering problem-specific questions.
