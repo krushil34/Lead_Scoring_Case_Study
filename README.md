@@ -1,20 +1,36 @@
-# Lead_Scoring_Case_Study
+# Lead Scoring Case Study
 
 ## Problem Statement
 
-- An education company named X Education sells online courses to industry professionals. On any given day, many professionals who are interested in the courses land on their website and browse for courses.
+X Education, an online course provider for industry professionals, faces challenges in improving its lead conversion rate. While the company generates many leads daily through websites, search engines, and referrals, only about 30% of these leads convert into paying customers.
 
-- The company markets its courses on several websites and search engines like Google. Once these people land on the website, they might browse the courses or fill up a form for the course or watch some videos. When these people fill up a form providing their email address or phone number, they are classified to be a lead. Moreover, the company also gets leads through past referrals. Once these leads are acquired, employees from the sales team start making calls, writing emails, etc. Through this process, some of the leads get converted while most do not. The typical lead conversion rate at X education is around 30%.
+The company seeks to improve this conversion rate by identifying and prioritizing high-potential leads—referred to as 'Hot Leads'. By focusing the sales team's efforts on these leads, X Education aims to achieve a target lead conversion rate of approximately 80%.
 
-- Now, although X Education gets a lot of leads, its lead conversion rate is very poor. For example, if, say, they acquire 100 leads in a day, only about 30 of them are converted. To make this process more efficient, the company wishes to identify the most potential leads, also known as ‘Hot Leads’. If they successfully identify this set of leads, the lead conversion rate should go up as the sales team will now be focusing more on communicating with the potential leads rather than making calls to everyone. A typical lead conversion process can be represented using the following funnel:
+A typical lead conversion process can be visualized as a funnel:
 
-- Lead Conversion Process - Demonstrated as a funnel As you can see, there are a lot of leads generated in the initial stage (top) but only a few of them come out as paying customers from the bottom. In the middle stage, you need to nurture the potential leads well (i.e. educating the leads about the product, constantly communicating etc. ) in order to get a higher lead conversion.
+- The initial stage has many leads entering the pipeline.
+- In the middle stage, potential leads need nurturing through communication, product education, and engagement.
+- The final stage converts the most promising leads into paying customers.
 
-- X Education has appointed you to help them select the most promising leads, i.e. the leads that are most likely to convert into paying customers. The company requires you to build a model wherein you need to assign a lead score to each of the leads such that the customers with higher lead score have a higher conversion chance and the customers with lower lead score have a lower conversion chance. The CEO, in particular, has given a ballpark of the target lead conversion rate to be around 80%.
+To streamline this process, the company requires a predictive model that assigns a Lead Score to each lead, indicating their likelihood of conversion. Higher scores will enable the sales team to focus their efforts more efficiently.
 
-## Data
+## Data Description
 
-- You have been provided with a leads dataset from the past with around 9000 data points. This dataset consists of various attributes such as Lead Source, Total Time Spent on Website, Total Visits, Last Activity, etc. which may or may not be useful in ultimately deciding whether a lead will be converted or not. The target variable, in this case, is the column ‘Converted’ which tells whether a past lead was converted or not wherein 1 means it was converted and 0 means it wasn’t converted. You can learn more about the dataset from the data dictionary provided in the zip folder at the end of the page. Another thing that you also need to check out for are the levels present in the categorical variables. Many of the categorical variables have a level called 'Select' which needs to be handled because it is as good as a null value (think why?).
+The dataset provided by X Education contains 9,000+ data points with several attributes, including:
+- Lead Source
+- Total Time Spent on Website
+- Total Visits  
+- Last Activity
+
+The target variable is 'Converted', where:
+
+- 1 indicates the lead converted into a customer.
+- 0 indicates the lead did not convert.
+
+### Data Challenges
+
+1.ome categorical variables include a level called 'Select', which is equivalent to missing or null data and must be addressed during preprocessing.
+2.The dataset includes both categorical and numerical variables, requiring appropriate feature engineering and encoding techniques.
 
 ## Goals of the Case Study:
 
